@@ -69,5 +69,6 @@ for q in dados:
 
     num += 1
 
+
 print("\n=== FIM DO JOGO ===")
-print("Pontuação:", pontos, "de", len(dados))
+print("pontuacao:", pontos, "de", len(dados))
