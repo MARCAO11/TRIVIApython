@@ -31,6 +31,7 @@ elif opc == "3":
 else:
     dificuldade = "medium"
 
+
 url = f"https://opentdb.com/api.php?amount=5&difficulty={dificuldade}&type=multiple"
 resp = requests.get(url)
 dados = resp.json()["results"]
