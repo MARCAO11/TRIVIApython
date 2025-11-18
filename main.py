@@ -23,11 +23,11 @@ print("3- Dificil")
 opc = input("Digite: ")
 
 if opc == "1":
-    dificuldade = "easy"
+   dificuldade = "easy"
 elif opc == "2":
-    dificuldade = "medium"
+   dificuldade == "medium"
 elif opc == "3":
-    dificuldade = "hard"
+   dificuldade == "hard"
 else:
     dificuldade = "medium"
 
