@@ -16,9 +16,9 @@ def traduzir(texto):
 
 print("=== JOGO DE TRIVIA ===")
 print("Escolha a dificuldade:")
-print("1 - Fácil")
-print("2 - Médio")
-print("3 - Difícil")
+print("1- Facil")
+print("2- Medio")
+print("3- Dificil")
 
 opc = input("Digite: ")
 
