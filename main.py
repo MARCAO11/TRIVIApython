@@ -21,15 +21,17 @@ print("2- Medio")
 print("3- Dificil")
 
 opc = input("Digite: ")
+dificuldade = "easy"
 
 if opc == "1":
-   dificuldade = "easy"
+    dificuldade = "medium"
 elif opc == "2":
-   dificuldade == "medium"
+    dificuldade = "hard"
 elif opc == "3":
-   dificuldade == "hard"
+    dificuldade = "easy"
 else:
     dificuldade = "medium"
+
 
 
 url = f"https://opentdb.com/api.php?amount=5&difficulty={dificuldade}&type=multiple"
